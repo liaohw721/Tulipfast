@@ -1,4 +1,4 @@
-# RoboFast
+# TulipFast
 
 A lightweight inference profiling and optimization prototype for robotics-inspired AI workloads.
 

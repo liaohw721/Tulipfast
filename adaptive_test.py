@@ -10,7 +10,7 @@ from PIL import Image
 from torchvision.models import resnet18, ResNet18_Weights
 
 # ===================================
-# RoboFast Step 14: Fair Benchmark
+# tulipfast Step 14: Fair Benchmark
 # ===================================
 
 torch.manual_seed(42)
@@ -174,7 +174,7 @@ summary["Speedup_vs_Baseline"] = (
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 220)
 
-print("\n===== ROBOFAST BENCHMARK RESULTS =====")
+print("\n===== tulipfast BENCHMARK RESULTS =====")
 print(summary.round(5).to_string(index=False))
 
 print("\nExperimental settings:")

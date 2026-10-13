@@ -8,8 +8,8 @@ import statistics
 from pathlib import Path
 from datetime import datetime
 
-st.set_page_config(page_title="RoboFast", layout="wide")
-st.title("🤖 RoboFast")
+st.set_page_config(page_title="tulipfast", layout="wide")
+st.title("🤖 tulipfast")
 st.subheader("VLA-Style Inference Optimization")
 st.caption("PyTorch | CPU | Vision Feature Caching")
 
