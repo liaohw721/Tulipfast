@@ -1,0 +1,16 @@
+Strategy,Total_ms,Per_Frame_ms,Refreshes,Cache_Hits,Hit_Rate,Mean_Feature_Error,Max_Feature_Error,Trial,Num_Frames,Num_Trials,Refresh_Interval,Adaptive_Threshold,Num_Threads,Seed,Device,Torch_Version,Torchvision_Version,Image
+Always Refresh,1213.562099961564,40.4520699987188,30,0,0.0,0.0,0.0,1,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Fixed Rate,210.41059994604439,7.013686664868146,3,27,0.9,0.061187896070381005,0.8123810291290283,1,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Adaptive Cache,983.5455999709666,32.78485333236555,23,7,0.23333333333333334,0.00505741989860932,0.4408978819847107,1,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Fixed Rate,124.79920010082424,4.159973336694141,3,27,0.9,0.061187896070381005,0.8123810291290283,2,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Adaptive Cache,913.2699000183493,30.442330000611644,23,7,0.23333333333333334,0.00505741989860932,0.4408978819847107,2,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Always Refresh,1212.854800047353,40.428493334911764,30,0,0.0,0.0,0.0,2,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Adaptive Cache,888.0718000000343,29.602393333334476,23,7,0.23333333333333334,0.00505741989860932,0.4408978819847107,3,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Always Refresh,1153.836700017564,38.4612233339188,30,0,0.0,0.0,0.0,3,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Fixed Rate,129.4580000685528,4.31526666895176,3,27,0.9,0.061187896070381005,0.8123810291290283,3,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Always Refresh,1179.1768999537453,39.30589666512484,30,0,0.0,0.0,0.0,4,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Fixed Rate,120.84230000618845,4.028076666872948,3,27,0.9,0.061187896070381005,0.8123810291290283,4,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Adaptive Cache,914.3163000699133,30.47721000233044,23,7,0.23333333333333334,0.00505741989860932,0.4408978819847107,4,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Fixed Rate,131.63670001085848,4.387890000361949,3,27,0.9,0.061187896070381005,0.8123810291290283,5,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Adaptive Cache,974.5605000061914,32.48535000020638,23,7,0.23333333333333334,0.00505741989860932,0.4408978819847107,5,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
+Always Refresh,1186.777700087987,39.55925666959956,30,0,0.0,0.0,0.0,5,30,5,10,0.02,2,42,CPU,2.14.1+cpu,0.29.1+cpu,C:\Users\Henrylocal\OneDrive\Desktop\Tulipfast\test_image.jpg
