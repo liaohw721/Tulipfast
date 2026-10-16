@@ -9,9 +9,9 @@ from pathlib import Path
 from datetime import datetime
 
 st.set_page_config(page_title="tulipfast", layout="wide")
-st.title("🤖 tulipfast")
-st.subheader("VLA-Style Inference Optimization")
-st.caption("PyTorch | CPU | Vision Feature Caching")
+st.title("🌷 TulipFast")
+st.subheader("Synthetic VLA-Style Inference Optimization")
+st.caption("PyTorch | CPU | Fixed synthetic inputs | Vision-feature reuse")
 
 torch.set_num_threads(2)
 
@@ -167,7 +167,7 @@ if st.button("🚀 Run Optimization Experiment", type="primary"):
 
     col1.metric("Baseline", f"{baseline_ms:.4f} ms")
     col2.metric("Cached Vision", f"{cached_ms:.4f} ms")
-    col3.metric("Measured Latency Ratio", f"{speedup:.2f}x")
+    col3.metric("Speedup (median latency)", f"{speedup:.2f}x")
 
     st.subheader("Before vs After")
     st.bar_chart(summary.set_index("Mode")[["median"]])
@@ -189,7 +189,7 @@ if st.button("🚀 Run Optimization Experiment", type="primary"):
         "are not included in this controlled experiment."
     )
 
-    results_dir = Path("results")
+    results_dir = Path(__file__).resolve().parent / "results"
     results_dir.mkdir(exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
